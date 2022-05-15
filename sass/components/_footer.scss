@@ -1,6 +1,6 @@
  /*Footer*/
  .footer  {
-  background-color: var(--background-footer-color);
+  background-color: $background-footer-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -10,8 +10,8 @@
 }
 /* Footer Logo */
 .footer-logotipe {
-  color: var(--text-color-white);
-  font-family: var(--secondary-font);
+  color: $text-color-white;
+  font-family: $secondary-font;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -21,7 +21,7 @@ text-decoration: none;
 }
 
 .footer-logotipe__akcent {
-  color: var(--akcent-color);
+  color:$akcent-color;
 }
 /* Footer links */
   
@@ -30,7 +30,7 @@ text-decoration: none;
 }
 
 .footer__map {
-  color: var(--text-color-white);
+  color: $text-color-white;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -58,11 +58,11 @@ text-decoration: none;
 }
 
 .footer-slogan {
-  font-weight: var(--font-weight-bold);
+  font-weight: $font-weight-bold;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--text-color-white);
+  color: $text-color-white;
   margin-bottom: 20px;
 }
 
@@ -76,10 +76,10 @@ text-decoration: none;
   align-items: center;
   width: 44px;
   height: 44px;
-  fill: var(--text-color-white);
+  fill: $text-color-white;
   background-color:  rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  transition: 250ms var(--animation-timing);
+  transition: 250ms $animation-timing;
 }
 
 .footer-social__icon {
@@ -89,7 +89,7 @@ text-decoration: none;
 
 .footer-social__item:hover,
 .footer-social__item:focus {
-  background-color: var(--akcent-color);
+  background-color: $akcent-color;
 }
 
 .footer-social__link:not(:last-child) {
@@ -106,16 +106,16 @@ text-decoration: none;
 
 .footer-form {
   display: block;
-  font-weight: var(--font-weight-bold);
+  font-weight: $font-weight-bold;
   line-height: 1.14;
-  color: var(--text-color-white);
+  color: $text-color-white;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 
 .footer-form__mail {
-  background-color: var(--background-footer-color);
-  color: var(--text-color-white);
+  background-color: $background-footer-color;
+  color: $text-color-white;
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -128,10 +128,10 @@ text-decoration: none;
 
 .footer-input__button{
   position: relative;
-  background-color: var(--akcent-color);
-  color: var(--text-color-white);
+  background-color: $akcent-color;
+  color: $text-color-white;
   font-size: 16px;
-  font-weight: var(--font-weight-bold);
+  font-weight: $font-weight-bold;
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -144,7 +144,7 @@ text-decoration: none;
 
 .button-input__icon {
   position: absolute;
- fill: var(--text-color-white);
+ fill: $text-color-white;
  top: 13px;
  right: 28px;
 }

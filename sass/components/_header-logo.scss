@@ -1,10 +1,10 @@
 /*Header Logotipe*/
 
 .header-logo {
-  color: var(--primary-text-color);
-  font-family: var(--secondary-font);
+  color: $primary-text-color;
+  font-family: $secondary-font;
   font-style: normal;
-  font-weight: var(--font-weight-bold);
+  font-weight: $font-weight-bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -13,7 +13,7 @@
 }
 
 .header-logo__akcent {
-  color: var(--akcent-color);
+  color: $akcent-color;
 }
 
 

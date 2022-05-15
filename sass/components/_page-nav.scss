@@ -13,25 +13,25 @@
 }
 
 .site-nav .link {
-color: var(--primary-text-color);
-font-weight: var(--font-weight-medium);
+color: $primary-text-color;
+font-weight: $font-weight-medium;
 font-style: normal;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 padding-top: 32px;
 padding-bottom: 32px;
-transition: 250ms var(--animation-timing);
+transition: 250ms $animation-timing;
 }
 
 .site-nav :hover,
 .site-nav :focus {
-  color: var(--akcent-color);
+  color: $akcent-color;
 }
 
 .site-nav .link-current {
-  color: var(--akcent-color);
-  font-weight: var(--font-weight-medium);
+  color: $akcent-color;
+  font-weight: $font-weight-medium;
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -52,7 +52,7 @@ position: relative;
   bottom: -2px;
   width: 100%;
   height: 4px;
-  background-color: var(--akcent-color);
+  background-color: $akcent-color;
   border-radius: 2px;
 }
 
@@ -65,22 +65,22 @@ position: relative;
 .auth-nav  {
   display: flex;
   align-items: center;
-  color: var(--secondary-text-color);
-  font-weight: var(--font-weight-medium);
+  color: $secondary-text-color;
+  font-weight: $font-weight-medium;
   font-style: normal;
   letter-spacing: 0.02em;
   line-height: 1.14;
   text-decoration: none;
   cursor: pointer;
-  fill: var(--secondary-text-color);
+  fill: $secondary-text-color;
 }
 
 .mail-link {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--secondary-text-color);
-  transition: 250ms var(--animation-timing);
+  color: $secondary-text-color;
+  transition: 250ms $animation-timing;
 
 }
 
@@ -88,8 +88,8 @@ position: relative;
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--secondary-text-color);
-  transition: 250ms var(--animation-timing);
+  color: $secondary-text-color;
+  transition: 250ms $animation-timing;
 
 }
 
@@ -110,17 +110,17 @@ height: 12px;
 
 .auth-nav:hover,
 .auth-nav:focus {
-  color: var(--akcent-color);
+  color: $akcent-color;
 }
 
 .mail-link:hover,
 .mail-link:focus {
-  color: var(--akcent-color);
+  color: $akcent-color;
 }
 
 .tel-link:hover,
 tel-link:focus {
-  color: var(--akcent-color);
+  color: $akcent-color;
 }
 
 /* End site navigation */

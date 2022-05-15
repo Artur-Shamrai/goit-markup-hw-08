@@ -1,9 +1,9 @@
 /*Hero section*/
 .hero { 
-  $font-weight-bold:700;
-background-image: var(--hero-gradient),
+ 
+background-image: $hero-gradient,
 url(../../images/background.jpg);
-  background-color: var(--background-footer-color);
+  background-color: $background-footer-color;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,9 +16,8 @@ url(../../images/background.jpg);
 
 
 
-
 .hero .title {
-color: var(--text-color-white);
+color: $text-color-white;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -31,10 +30,10 @@ display: inline-block;
 }
 
 .hero .button {
-background-color: var(--akcent-color);
-color: var(--text-color-white);
+background-color: $akcent-color;
+color: $text-color-white;
 font-family: inherit;
-font-weight: var(--font-weight-bold);
+font-weight: $font-weight-bold;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
@@ -50,5 +49,5 @@ cursor: pointer;
 
 .hero .button:hover,
 .hero .button:focus {
-  background-color: var(--hero-button-hover);
+  background-color: $hero-button-hover;
 }

@@ -1,11 +1,15 @@
 
+
+
 body {
-    background-color: var(--text-color-white);
-    color: var(--primary-text-color);
-    font-family: var(--general-font), sans-serif;
+    background-color: $text-color-white;
+    color: $primary-text-color;
+    font-family: $general-font, sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
   }
+
+  
   .container{
     width: 1200px;
    padding-left: 15px;
@@ -39,3 +43,5 @@ body {
     height: auto;
   }
   
+
+

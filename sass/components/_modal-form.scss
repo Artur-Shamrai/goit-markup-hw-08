@@ -5,7 +5,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%) scale(1);
-  background: var(--text-color-white);
+  background: $text-color-white;
   box-shadow:
   0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -14,12 +14,12 @@
   padding: 40px 40px;
   height: 581px;
  
-  transition: transform 250ms var(--animation-timing);
+  transition: transform 250ms $animation-timing;
 } 
 
 .modal__desk {
   font-size: 20px;
-  font-weight: var(--font-weight-bold);
+  font-weight: $font-weight-bold;
   line-height: 1.15;
   margin-bottom: 12px;
   text-align: center;
@@ -33,7 +33,7 @@
 
 .modal-form__label{
   display: block;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-size: 12px;
   line-height: 1.16;
   margin-bottom: 4px;
@@ -52,17 +52,17 @@ cursor: pointer;
 
 
 .modal-form__input:focus {
- border: 1px solid var(--akcent-color);
+ border: 1px solid $akcent-color;
  outline: none;
- transition: border 250ms var(--animation-timing);
+ transition: border 250ms $animation-timing;
 }
 
 
 .modal-form__input:focus + .modal-form__icon {
-  color: var(--akcent-color);
+  color: $akcent-color;
 }
 .modal-form__icon {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .form-icon {
@@ -75,8 +75,8 @@ cursor: pointer;
 }
 
 .modal-form__icon:focus {
-  background-color: var(--akcent-color);
-color: var(--text-color-white);
+  background-color: $akcent-color;
+color: $text-color-white;
 }
 
 
@@ -92,9 +92,9 @@ color: var(--text-color-white);
 }
 
 .modal-form__comments:focus {
-  border: 1px solid var(--akcent-color);
+  border: 1px solid $akcent-color;
  outline: none;
- transition: border 250ms var(--animation-timing);
+ transition: border 250ms $animation-timing;
 }
 
 .modal-form__button {
@@ -102,8 +102,8 @@ color: var(--text-color-white);
   margin-inline: auto;
   width: 200px;
   height: 50px;
-  background-color: var(--akcent-color);
-  color: var(--text-color-white);
+  background-color: $akcent-color;
+  color: $text-color-white;
   border-radius: 4px;
  border: none;
 }
@@ -111,7 +111,7 @@ color: var(--text-color-white);
 
 .modal-button__text{
 font-size: 16px;
-  font-weight: var(--font-weight-bold);
+  font-weight: $font-weight-bold;
   letter-spacing: 0.06em;
   line-height: 1.87;
 }
@@ -126,7 +126,7 @@ font-size: 16px;
   display: block;
   text-align: center;
   margin-bottom: 30px;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
  
 }
 
@@ -135,17 +135,17 @@ font-size: 16px;
   left: 3px;
   width: 16px;
   height: 15px;
-  background-color: var(--text-color-white);
- border: solid 2px var(--primary-text-color);
+  background-color: $text-color-white;
+ border: solid 2px $primary-text-color;
  border-radius: 3px;
 }
 
 .modal-checkbox__icon:checked + .checkbox__icon {
   background-color: #188CE8;
   border-radius: 3px;
-  border-color: var(--akcent-color);
+  border-color: $akcent-color;
   background-image: url(../../images/icon-check.svg);
-color: var(--text-color-white);
+color: $text-color-white;
 background-repeat: no-repeat;
 background-size: contain;
 
@@ -155,7 +155,7 @@ background-size: contain;
 
 
 .modal-form__link {
-  color: var(--akcent-color);
+  color: $akcent-color;
 }
 
 .backdrop.is-hidden{
@@ -178,7 +178,7 @@ background-size: contain;
   right: 8px;
   display: flex;
   align-items: center;
-  background: var(--text-color-white);
+  background: $text-color-white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   width: 30px;
@@ -188,8 +188,8 @@ background-size: contain;
   
 
 .button-close__icon:hover {
-  fill: var(--akcent-color);
-  transition: 250ms var(--animation-timing);
+  fill: $akcent-color;
+  transition: 250ms $animation-timing;
 }
 
 /* End Modal Form */

@@ -1,6 +1,6 @@
   /* Clients Section */
   .clients__title {
-    font-weight: var(--font-weight-bold);
+    font-weight: $font-weight-bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -24,18 +24,18 @@
     justify-content: center;
     width: 170px;
     height: 92px;
-    border: 1px solid var(--logo-color);
+    border: 1px solid $logo-color;
     border-radius: 4px;
-    color: var(--logo-color);
-    background-color: var(--text-color-white);
-    transition: 250ms var(--animation-timing);
+    color: $logo-color;
+    background-color: $text-color-white;
+    transition: 250ms $animation-timing;
   }
   
    .clients__current:hover,
    .clients__current:focus {
-    border: 1px solid  var(--akcent-color);
+    border: 1px solid  $akcent-color;
     border-radius: 4px;
-    color: var(--akcent-color);
+    color: $akcent-color;
   }
   
   .clients__icon{

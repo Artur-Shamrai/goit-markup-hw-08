@@ -4,7 +4,7 @@
   }
   
   .activity .title {
-    font-weight: var(--font-weight-bold);
+    font-weight: $font-weight-bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -32,8 +32,8 @@ margin-top: 50px;
    width: 100%;
   padding: 27px 0;
   text-align: center;
-  font-weight: var(--font-weight-bold);
-  color: var(--text-color-white);
+  font-weight: $font-weight-bold;
+  color: $text-color-white;
   text-transform: uppercase;
  }
  /* End Activity Section */

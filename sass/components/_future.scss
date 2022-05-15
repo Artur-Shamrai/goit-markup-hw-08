@@ -1,0 +1,41 @@
+/*Future list(Hero)*/
+.future .list {
+  display: flex;
+  } 
+  
+  .future-link:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .future__icon-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color:  rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+    fill: var(--primary-text-color);
+    
+  }
+  
+  
+  .future__title {
+    font-weight: var(--font-weight-bold);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .future__icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  
+  .future__slogan {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    max-width: 270px;
+   }
+   /* End Hero section */

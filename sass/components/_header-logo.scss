@@ -1,0 +1,20 @@
+/*Header Logotipe*/
+
+.header-logo {
+  color: var(--primary-text-color);
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 93px;
+}
+
+.header-logo__akcent {
+  color: var(--akcent-color);
+}
+
+
+/* End Header logotipe section */

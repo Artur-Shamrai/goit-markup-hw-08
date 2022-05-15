@@ -1,0 +1,39 @@
+  /* Activity section */
+  .activity {
+    padding-top: 0;
+  }
+  
+  .activity .title {
+    font-weight: var(--font-weight-bold);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+ 
+ .activity .list {
+   display: flex;
+margin-top: 50px;
+ }
+ 
+ .activity li:not(:last-child) {
+   margin-right: 30px;
+ }
+.activity .link {
+  position: relative;
+}
+
+
+ .activity .text {
+   position: absolute;
+   bottom: 0px;
+   right: 50%;
+   transform: translate(+50%);
+   background-color: rgba(47, 48, 58, 0.8);
+   width: 100%;
+  padding: 27px 0;
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+  color: var(--text-color-white);
+  text-transform: uppercase;
+ }
+ /* End Activity Section */

@@ -1,0 +1,48 @@
+  /* Clients Section */
+  .clients__title {
+    font-weight: var(--font-weight-bold);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+  
+  
+    .clients__list {
+    display: flex;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  .clients__links:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  
+  .clients__current {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--logo-color);
+    border-radius: 4px;
+    color: var(--logo-color);
+    background-color: var(--text-color-white);
+    transition: 250ms var(--animation-timing);
+  }
+  
+   .clients__current:hover,
+   .clients__current:focus {
+    border: 1px solid  var(--akcent-color);
+    border-radius: 4px;
+    color: var(--akcent-color);
+  }
+  
+  .clients__icon{
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+  }
+  
+  
+    /* End Clients Section */
